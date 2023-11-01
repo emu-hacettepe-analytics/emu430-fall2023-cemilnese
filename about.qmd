@@ -4,7 +4,7 @@ sidebar: false
 ---
 
 
-"Hello, I'm Cemil Neşe, a fourth-year industrial engineering student with a passion for statistics and data science. Currently, I'm gaining practical experience as a Junior Officer at Turkish Airlines. My academic background in industrial engineering equips me with problem-solving skills and a strong analytical mindset, while my interest in statistics and data science drives me to explore and apply data-driven solutions. I'm enthusiastic about leveraging data to optimize processes, improve decision-making, and enhance operational efficiency within the airline and defense industries. With a blend of academic knowledge and real-world experience, I'm dedicated to making a positive impact by harnessing the power of data."
+Hello, I'm Cemil Neşe, a fourth-year industrial engineering student with a passion for statistics and data science. Currently, I'm gaining practical experience as a Junior Officer at Turkish Airlines. My academic background in industrial engineering equips me with problem-solving skills and a strong analytical mindset, while my interest in statistics and data science drives me to explore and apply data-driven solutions. I'm enthusiastic about leveraging data to optimize processes, improve decision-making, and enhance operational efficiency within the airline and defense industries. With a blend of academic knowledge and real-world experience, I'm dedicated to making a positive impact by harnessing the power of data.
 
 You can download my cv [here](Cemil Neşe.pdf).
 
