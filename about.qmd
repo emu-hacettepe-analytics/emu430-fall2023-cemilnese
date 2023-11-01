@@ -3,28 +3,41 @@ title: "About Me"
 sidebar: false 
 ---
 
+
+"Hello, I'm Cemil Neşe, a fourth-year industrial engineering student with a passion for statistics and data science. Currently, I'm gaining practical experience as a Junior Officer at Turkish Airlines. My academic background in industrial engineering equips me with problem-solving skills and a strong analytical mindset, while my interest in statistics and data science drives me to explore and apply data-driven solutions. I'm enthusiastic about leveraging data to optimize processes, improve decision-making, and enhance operational efficiency within the airline and defense industries. With a blend of academic knowledge and real-world experience, I'm dedicated to making a positive impact by harnessing the power of data."
+
+You can download my cv [here](Cemil Neşe.pdf).
+
+
 # Education
 
--   B.S., Industrial Engineering, Hacettepe University, Turkey, 20xx - ongoing.
+-   B.S., Industrial Engineering, Hacettepe University, Turkey, 2019 - ongoing.
+
+-   Erasmus+ Exchange Student, Universidad de Malaga, Spain, FEB 2022 - JUL 2022.
 
 # Work Experience
 
 ## Employements
 
-1.  Firm xxx, position xx, year xxx
-
-2.  Firm yyy, position yyy, year yyy
+1.  Turkish Airlines, Junior Catering and Inflight Operations Control          Officer / PT, SEP 2023 - Present
 
 ## Internships
 
-1.  Firm aaa, position xx, year xxx
+1.  Turkish Aerospace, Sky Discover Summer Intern, JUL 2023 - JUL 2023
 
-2.  Firm bbb, position yyy, year yyy
+2.  Şişecam, First Step Summer Intern, AUG 2023 - AUG 2023
 
 # Projects
 
+TUBITAK BICABA - "A Prescriptive Approach to Brain Tumor Resection", APR   2023 - SEP 2023
+
+Turkish Aerospace Lift-Up Graduation Project - "Demand Correlation Analysis, Storage Assignment, Vehicle Route Planning", SEP 2023 - Present
+
 # Competencies
 
-R, Quarto, Git, Python
+R, Quarto, Git, Python, SQL
 
 # Hobbies
+
+Football, Basketball, Table Tennis, Travelling
+
