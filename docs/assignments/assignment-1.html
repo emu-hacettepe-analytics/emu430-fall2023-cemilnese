@@ -207,8 +207,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#a" id="toc-a" class="nav-link active" data-scroll-target="#a">(a)</a></li>
+  <li><a href="#save-an-ocean-of-time-streamline-data-wrangling-with-r" id="toc-save-an-ocean-of-time-streamline-data-wrangling-with-r" class="nav-link" data-scroll-target="#save-an-ocean-of-time-streamline-data-wrangling-with-r">Save an ocean of time: streamline data wrangling with R</a>
+  <ul class="collapse">
   <li><a href="#b" id="toc-b" class="nav-link" data-scroll-target="#b">(b)</a></li>
+  </ul></li>
+  <li><a href="#basic-differences-between-python-and-r" id="toc-basic-differences-between-python-and-r" class="nav-link" data-scroll-target="#basic-differences-between-python-and-r">Basic differences between Python and R</a>
+  <ul class="collapse">
   <li><a href="#c" id="toc-c" class="nav-link" data-scroll-target="#c">(c)</a></li>
+  </ul></li>
   </ul>
 </nav>
 </nav>
@@ -240,17 +246,86 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="a" class="level2">
 <h2 class="anchored" data-anchor-id="a">(a)</h2>
 </section>
+<section id="save-an-ocean-of-time-streamline-data-wrangling-with-r" class="level1">
+<h1>Save an ocean of time: streamline data wrangling with R</h1>
+<p>The video is about how automating repetitive tasks can save substantial amount of time by improving workflow and reducing errors. The speaker talks about operations of a small company located in Nova Scotia, Canada. This company is focusing and analyzing of coast and ocean parameters such as temperature, dissolved oxygen in water etc. to post them online for the use of other companies. There are some kind of sensor systems at certain points under the ocean surface and these sensor generating huge amount of data every minutes to every hour. Before the speaker started to work for this company, people had been handling these dataset manually and as she is mentioning in the video it consumes as much as ocean amount of time. Even though, she have not had any experience with data wrapping and manipulation before, studies and coding done by her made huge impact on companies effectiveness. Once again she improved the idea of practicing makes things perfect. Meanwhile, she also learnt error handling and prevention methods and integrated these techniques to the package she coded. I believe that the most important part of coding is starting and the rest would follow.</p>
 <section id="b" class="level2">
 <h2 class="anchored" data-anchor-id="b">(b)</h2>
 </section>
+</section>
+<section id="basic-differences-between-python-and-r" class="level1">
+<h1>Basic differences between Python and R</h1>
+<p><strong>1. Data Structures and Indexing:</strong></p>
+<p>R Example:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating a vector in R</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>my_vector <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Accessing the third element (index 3) in R</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>third_element <span class="ot">&lt;-</span> my_vector[<span class="dv">3</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Python Example:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode p code-with-copy"><code class="sourceCode pascal"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="st"># </span>Creating a list <span class="kw">in</span> Python</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>my_list = [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="st"># </span>Accessing the third element (index <span class="dv">2</span>) <span class="kw">in</span> Python</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>third_element = my_list[<span class="dv">2</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>In R, data frames and matrices are commonly used for data manipulation. R uses 1-based indexing, meaning the first element is accessed with index 1. In Python, pandas DataFrames and NumPy arrays are commonly used. Python uses 0-based indexing, so the first element is accessed with index 0.</p>
+<p><strong>2. Function Syntax and Style:</strong></p>
+<p>R Example:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Defining a custom function in R</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>square <span class="ot">&lt;-</span> <span class="cf">function</span>(x) {</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">return</span>(x <span class="sc">*</span> x)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Calling the custom function</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>result <span class="ot">&lt;-</span> <span class="fu">square</span>(<span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Python Example:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode p code-with-copy"><code class="sourceCode pascal"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="st"># </span>Defining a custom <span class="kw">function</span> <span class="kw">in</span> Python</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>def square(x):</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    return x * x</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="st"># </span>Calling the custom <span class="kw">function</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>result = square(<span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>In this example, we demonstrate the syntax and style differences in defining and calling custom functions. In R, functions are defined using the <strong>function</strong> keyword, and function arguments are enclosed in <strong>parentheses</strong>. In Python, functions are defined using the <strong>def</strong> keyword, and the function arguments are specified in the <strong>parentheses</strong> as well. The function body in R is enclosed in curly braces <strong>{}</strong>, whereas Python uses <em>indentation</em> to define the function block.</p>
+<p><strong>3. Programming Paradigms</strong></p>
+<p>In Python, you can use object-oriented programming (OOP) principles to create and manipulate objects with methods and attributes. Python’s core data structure, the list, is an example of an object that can be extended with methods.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode p code-with-copy"><code class="sourceCode pascal"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="st"># </span>Example <span class="kw">of</span> object-oriented programming <span class="kw">in</span> Python</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> MyClass:</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    def __init__(<span class="kw">self</span>, value):</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>        <span class="kw">self</span>.value = value</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>    def display(<span class="kw">self</span>):</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>        print("Value:", <span class="kw">self</span>.value)</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>obj = MyClass(<span class="dv">42</span>)</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>obj.display()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>In R, the language is more vector-oriented. It’s designed to perform operations on entire vectors or data frames at once, without explicit loops. This is a characteristic feature of R and is facilitated by its vectorized functions.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Example of vector-oriented programming in R</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>vector <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>)</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>result <span class="ot">&lt;-</span> vector <span class="sc">*</span> <span class="dv">2</span>  <span class="co"># Multiply each element by 2</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(result)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1]  2  4  6  8 10</code></pre>
+</div>
+</div>
+<p>In this R example, the operation is applied to the entire vector at once, which is a common approach in R for data manipulation.</p>
+<p>So, the key difference here is that Python provides strong support for object-oriented programming, making it well-suited for creating and managing objects, while R’s vector-oriented paradigm is designed for efficient and concise data manipulation operations on entire vectors or data frames.</p>
 <section id="c" class="level2">
 <h2 class="anchored" data-anchor-id="c">(c)</h2>
-<p>Content of na_example:</p>
+<p><strong>Content of na_example:</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dslabs)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(na_example)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(na_example)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dslabs)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(na_example)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(na_example)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   [1]  2  1  3  2  1  3  1  4  3  2  2 NA  2  2  1  4 NA  1  1  2  1  2  2  1
   [25]  2  5 NA  2  2  3  1  2  4  1  1  1  4  5  2  3  4  1  2  4  1  1  2  1
@@ -296,18 +371,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  [985]  2  4  3  3  3 NA  1  1  2  2  1  1  2  2 NA  2</code></pre>
 </div>
 </div>
-<p>Total number of NAs:</p>
+<p><strong>Total number of NAs:</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">paste</span>(<span class="st">"Total number of NAs in na_example is"</span>,<span class="fu">sum</span>(<span class="fu">is.na</span>(na_example)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">paste</span>(<span class="st">"Total number of NAs in na_example is"</span>,<span class="fu">sum</span>(<span class="fu">is.na</span>(na_example)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "Total number of NAs in na_example is 145"</code></pre>
 </div>
 </div>
-<p>Replaced NAs with 0:</p>
+<p><strong>Replaced NAs with 0:</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>na_example[<span class="fu">is.na</span>(na_example)] <span class="ot">&lt;-</span> <span class="dv">0</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>new_data_set <span class="ot">&lt;-</span> na_example </span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>new_data_set</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>na_example[<span class="fu">is.na</span>(na_example)] <span class="ot">&lt;-</span> <span class="dv">0</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>new_data_set <span class="ot">&lt;-</span> na_example </span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>new_data_set</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   [1] 2 1 3 2 1 3 1 4 3 2 2 0 2 2 1 4 0 1 1 2 1 2 2 1 2 5 0 2 2 3 1 2 4 1 1 1 4
   [38] 5 2 3 4 1 2 4 1 1 2 1 5 0 0 0 1 1 5 1 3 1 0 4 4 7 3 2 0 0 1 0 4 1 2 2 3 2
@@ -339,15 +414,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 [1000] 2</code></pre>
 </div>
 </div>
-<p>Total number of NAs in new_data_set:</p>
+<p><strong>Total number of NAs in new_data_set:</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">paste</span>(<span class="st">"Total number of NAs in new data frame is"</span>, <span class="fu">sum</span>(<span class="fu">is.na</span>(new_data_set)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">paste</span>(<span class="st">"Total number of NAs in new data frame is"</span>, <span class="fu">sum</span>(<span class="fu">is.na</span>(new_data_set)))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] "Total number of NAs in new data frame is 0"</code></pre>
 </div>
 </div>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
