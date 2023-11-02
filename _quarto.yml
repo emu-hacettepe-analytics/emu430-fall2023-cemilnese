@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "[Student/Group Full Name]'s Analytics Lab"
+  title: "Cemo's Analytics Lab"
   navbar:
     search: true
     left:
@@ -22,11 +22,11 @@ website:
             
     tools:
       - icon: github
-        href: https://twitter.com
+        href: https://github.com/cemilnese
       - icon: twitter
-        href: https://twitter.com
+        href: https://twitter.com/Fenerbahce?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
       - icon: linkedin
-        href: https://linkedin.com
+        href: https://www.linkedin.com/in/cemilnese01/
 
   sidebar:
     - title: "Assignments"
