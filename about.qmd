@@ -17,7 +17,7 @@ You can download my cv [here](Cemil Neşe.pdf).
 
 # Work Experience
 
-## Employements
+## Employments
 
 1.  Turkish Airlines, Junior Catering and Inflight Operations Control          Officer / PT, SEP 2023 - Present
 
@@ -29,15 +29,17 @@ You can download my cv [here](Cemil Neşe.pdf).
 
 # Projects
 
-TUBITAK BICABA - "A Prescriptive Approach to Brain Tumor Resection", APR   2023 - SEP 2023
+-   TUBITAK BICABA - "A Prescriptive Approach to Brain Tumor Resection", APR 2023 - SEP 2023
 
-Turkish Aerospace Lift-Up Graduation Project - "Demand Correlation Analysis, Storage Assignment, Vehicle Route Planning", SEP 2023 - Present
+-   Turkish Aerospace Lift-Up Graduation Project - "Demand Correlation    Analysis, Storage Assignment, Vehicle Route Planning", SEP 2023 - Present
 
 # Competencies
 
-R, Quarto, Git, Python, SQL
+-   R, Quarto, Git, Python, SQL
 
 # Hobbies
 
-Football, Basketball, Table Tennis, Travelling
+-   Football, Basketball, Table Tennis, Travelling
+
+![><](images\dataaa.png)
 
