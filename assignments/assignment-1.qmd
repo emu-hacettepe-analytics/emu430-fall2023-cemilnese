@@ -10,11 +10,9 @@ My first assignment has three parts.
 
 The video is about how automating repetitive tasks can save substantial amount of time by improving workflow and reducing errors. The speaker talks about operations of a small company located in Nova Scotia, Canada. This company is focusing and analyzing of coast and ocean parameters such as temperature, dissolved oxygen in water etc. to post them online for the use of other companies. There are some kind of sensor systems at certain points under the ocean surface and these sensor generating huge amount of data every minutes to every hour. Before the speaker started to work for this company, people had been handling these dataset manually and as she is mentioning in the video it consumes as much as ocean amount of time. Even though, she have not had any experience with data wrapping and manipulation before, studies and coding done by her made huge impact on companies effectiveness. Once again she improved the idea of practicing makes things perfect. Meanwhile, she also learnt error handling and prevention methods and integrated these techniques to the package she coded. I believe that the most important part of coding is starting and the rest would follow.
 
-
 ## (b)
 
 # Basic differences between Python and R
-
 
 **1. Data Structures and Indexing:**
 
@@ -37,9 +35,7 @@ third_element = my_list[2]
 
 ```
 
-In R, data frames and matrices are commonly used for data manipulation. R uses 1-based indexing, meaning the first element is accessed with index 1.
-In Python, pandas DataFrames and NumPy arrays are commonly used. Python uses 0-based indexing, so the first element is accessed with index 0.
-
+In R, data frames and matrices are commonly used for data manipulation. R uses 1-based indexing, meaning the first element is accessed with index 1. In Python, pandas DataFrames and NumPy arrays are commonly used. Python uses 0-based indexing, so the first element is accessed with index 0.
 
 **2. Function Syntax and Style:**
 
@@ -69,7 +65,6 @@ result = square(5)
 ```
 
 In this example, we demonstrate the syntax and style differences in defining and calling custom functions. In R, functions are defined using the **function** keyword, and function arguments are enclosed in **parentheses**. In Python, functions are defined using the **def** keyword, and the function arguments are specified in the **parentheses** as well. The function body in R is enclosed in curly braces **{}**, whereas Python uses *indentation* to define the function block.
-
 
 **3. Programming Paradigms**
 
@@ -103,7 +98,6 @@ print(result)
 In this R example, the operation is applied to the entire vector at once, which is a common approach in R for data manipulation.
 
 So, the key difference here is that Python provides strong support for object-oriented programming, making it well-suited for creating and managing objects, while R's vector-oriented paradigm is designed for efficient and concise data manipulation operations on entire vectors or data frames.
-
 
 ## (c)
 
@@ -139,5 +133,3 @@ new_data_set
 paste("Total number of NAs in new data frame is", sum(is.na(new_data_set)))
 
 ```
-
-

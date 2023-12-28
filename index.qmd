@@ -11,7 +11,4 @@ Let's discover together what is up in Data Science World.
 
 Please fasten your seatbelts.
 
-
-
-![><](images\dataaa.png)
-
+![\>\<](images\dataaa.png)
